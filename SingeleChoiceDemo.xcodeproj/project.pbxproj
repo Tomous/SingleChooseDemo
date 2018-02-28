@@ -15,6 +15,28 @@
 		60AF3EAC2046A443002E3DB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EAB2046A443002E3DB0 /* main.m */; };
 		60AF3EB62046A443002E3DB0 /* SingeleChoiceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EB52046A443002E3DB0 /* SingeleChoiceDemoTests.m */; };
 		60AF3EC12046A443002E3DB0 /* SingeleChoiceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EC02046A443002E3DB0 /* SingeleChoiceDemoUITests.m */; };
+		60AF3ED72046A4DA002E3DB0 /* TableVC_MulChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3ED32046A4D9002E3DB0 /* TableVC_MulChoose.m */; };
+		60AF3ED82046A4DA002E3DB0 /* CollectViewVC_Mulchoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3ED42046A4DA002E3DB0 /* CollectViewVC_Mulchoose.m */; };
+		60AF3ED92046A4DA002E3DB0 /* CollectViewVC_SingleChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3ED52046A4DA002E3DB0 /* CollectViewVC_SingleChoose.m */; };
+		60AF3EDA2046A4DA002E3DB0 /* TableVC_SingleChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3ED62046A4DA002E3DB0 /* TableVC_SingleChoose.m */; };
+		60AF3F072046A4E3002E3DB0 /* SingleChooseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EE02046A4E3002E3DB0 /* SingleChooseTable.m */; };
+		60AF3F082046A4E3002E3DB0 /* MulChooseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EE12046A4E3002E3DB0 /* MulChooseTable.m */; };
+		60AF3F092046A4E3002E3DB0 /* TableChooseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EE22046A4E3002E3DB0 /* TableChooseCell.m */; };
+		60AF3F0A2046A4E3002E3DB0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EE52046A4E3002E3DB0 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		60AF3F0B2046A4E3002E3DB0 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EEE2046A4E3002E3DB0 /* ViewController+MASAdditions.m */; };
+		60AF3F0C2046A4E3002E3DB0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EF22046A4E3002E3DB0 /* MASCompositeConstraint.m */; };
+		60AF3F0D2046A4E3002E3DB0 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EF32046A4E3002E3DB0 /* MASConstraintMaker.m */; };
+		60AF3F0E2046A4E3002E3DB0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EF42046A4E3002E3DB0 /* MASLayoutConstraint.m */; };
+		60AF3F0F2046A4E3002E3DB0 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EF52046A4E3002E3DB0 /* NSArray+MASAdditions.m */; };
+		60AF3F102046A4E3002E3DB0 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EF62046A4E3002E3DB0 /* View+MASAdditions.m */; };
+		60AF3F112046A4E3002E3DB0 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EF92046A4E3002E3DB0 /* MASConstraint.m */; };
+		60AF3F122046A4E3002E3DB0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EFB2046A4E3002E3DB0 /* MASViewConstraint.m */; };
+		60AF3F132046A4E3002E3DB0 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EFC2046A4E3002E3DB0 /* MASViewAttribute.m */; };
+		60AF3F142046A4E3002E3DB0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60AF3EFD2046A4E3002E3DB0 /* Info.plist */; };
+		60AF3F152046A4E3002E3DB0 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3EFF2046A4E3002E3DB0 /* HeaderView.m */; };
+		60AF3F162046A4E3002E3DB0 /* CollectviewChooseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F022046A4E3002E3DB0 /* CollectviewChooseCell.m */; };
+		60AF3F172046A4E3002E3DB0 /* SingleChooseCollectview.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F042046A4E3002E3DB0 /* SingleChooseCollectview.m */; };
+		60AF3F182046A4E3002E3DB0 /* MulChooseCollectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AF3F052046A4E3002E3DB0 /* MulChooseCollectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +73,55 @@
 		60AF3EBC2046A443002E3DB0 /* SingeleChoiceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingeleChoiceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AF3EC02046A443002E3DB0 /* SingeleChoiceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingeleChoiceDemoUITests.m; sourceTree = "<group>"; };
 		60AF3EC22046A443002E3DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60AF3ECF2046A4D9002E3DB0 /* TableVC_SingleChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableVC_SingleChoose.h; sourceTree = "<group>"; };
+		60AF3ED02046A4D9002E3DB0 /* CollectViewVC_Mulchoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectViewVC_Mulchoose.h; sourceTree = "<group>"; };
+		60AF3ED12046A4D9002E3DB0 /* CollectViewVC_SingleChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectViewVC_SingleChoose.h; sourceTree = "<group>"; };
+		60AF3ED22046A4D9002E3DB0 /* TableVC_MulChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableVC_MulChoose.h; sourceTree = "<group>"; };
+		60AF3ED32046A4D9002E3DB0 /* TableVC_MulChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableVC_MulChoose.m; sourceTree = "<group>"; };
+		60AF3ED42046A4DA002E3DB0 /* CollectViewVC_Mulchoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectViewVC_Mulchoose.m; sourceTree = "<group>"; };
+		60AF3ED52046A4DA002E3DB0 /* CollectViewVC_SingleChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectViewVC_SingleChoose.m; sourceTree = "<group>"; };
+		60AF3ED62046A4DA002E3DB0 /* TableVC_SingleChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableVC_SingleChoose.m; sourceTree = "<group>"; };
+		60AF3EDD2046A4E3002E3DB0 /* MulChooseTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulChooseTable.h; sourceTree = "<group>"; };
+		60AF3EDE2046A4E3002E3DB0 /* SingleChooseTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleChooseTable.h; sourceTree = "<group>"; };
+		60AF3EDF2046A4E3002E3DB0 /* TableChooseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableChooseCell.h; sourceTree = "<group>"; };
+		60AF3EE02046A4E3002E3DB0 /* SingleChooseTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleChooseTable.m; sourceTree = "<group>"; };
+		60AF3EE12046A4E3002E3DB0 /* MulChooseTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulChooseTable.m; sourceTree = "<group>"; };
+		60AF3EE22046A4E3002E3DB0 /* TableChooseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableChooseCell.m; sourceTree = "<group>"; };
+		60AF3EE42046A4E3002E3DB0 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		60AF3EE52046A4E3002E3DB0 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		60AF3EE62046A4E3002E3DB0 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		60AF3EE72046A4E3002E3DB0 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		60AF3EE82046A4E3002E3DB0 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		60AF3EE92046A4E3002E3DB0 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		60AF3EEA2046A4E3002E3DB0 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		60AF3EEB2046A4E3002E3DB0 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		60AF3EEC2046A4E3002E3DB0 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		60AF3EED2046A4E3002E3DB0 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		60AF3EEE2046A4E3002E3DB0 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		60AF3EEF2046A4E3002E3DB0 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		60AF3EF02046A4E3002E3DB0 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		60AF3EF12046A4E3002E3DB0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		60AF3EF22046A4E3002E3DB0 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		60AF3EF32046A4E3002E3DB0 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		60AF3EF42046A4E3002E3DB0 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		60AF3EF52046A4E3002E3DB0 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		60AF3EF62046A4E3002E3DB0 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		60AF3EF72046A4E3002E3DB0 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		60AF3EF82046A4E3002E3DB0 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		60AF3EF92046A4E3002E3DB0 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		60AF3EFA2046A4E3002E3DB0 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		60AF3EFB2046A4E3002E3DB0 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		60AF3EFC2046A4E3002E3DB0 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		60AF3EFD2046A4E3002E3DB0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60AF3EFF2046A4E3002E3DB0 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		60AF3F002046A4E3002E3DB0 /* SingleChooseCollectview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleChooseCollectview.h; sourceTree = "<group>"; };
+		60AF3F012046A4E3002E3DB0 /* MulChooseCollectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulChooseCollectView.h; sourceTree = "<group>"; };
+		60AF3F022046A4E3002E3DB0 /* CollectviewChooseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectviewChooseCell.m; sourceTree = "<group>"; };
+		60AF3F032046A4E3002E3DB0 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		60AF3F042046A4E3002E3DB0 /* SingleChooseCollectview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleChooseCollectview.m; sourceTree = "<group>"; };
+		60AF3F052046A4E3002E3DB0 /* MulChooseCollectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulChooseCollectView.m; sourceTree = "<group>"; };
+		60AF3F062046A4E3002E3DB0 /* CollectviewChooseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectviewChooseCell.h; sourceTree = "<group>"; };
+		60AF3F192046A55E002E3DB0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +172,25 @@
 		60AF3E9B2046A442002E3DB0 /* SingeleChoiceDemo */ = {
 			isa = PBXGroup;
 			children = (
+				60AF3EDB2046A4E3002E3DB0 /* L2H_MulChoose */,
 				60AF3E9C2046A442002E3DB0 /* AppDelegate.h */,
 				60AF3E9D2046A442002E3DB0 /* AppDelegate.m */,
 				60AF3E9F2046A442002E3DB0 /* ViewController.h */,
 				60AF3EA02046A442002E3DB0 /* ViewController.m */,
+				60AF3ED02046A4D9002E3DB0 /* CollectViewVC_Mulchoose.h */,
+				60AF3ED42046A4DA002E3DB0 /* CollectViewVC_Mulchoose.m */,
+				60AF3ED12046A4D9002E3DB0 /* CollectViewVC_SingleChoose.h */,
+				60AF3ED52046A4DA002E3DB0 /* CollectViewVC_SingleChoose.m */,
+				60AF3ED22046A4D9002E3DB0 /* TableVC_MulChoose.h */,
+				60AF3ED32046A4D9002E3DB0 /* TableVC_MulChoose.m */,
+				60AF3ECF2046A4D9002E3DB0 /* TableVC_SingleChoose.h */,
+				60AF3ED62046A4DA002E3DB0 /* TableVC_SingleChoose.m */,
 				60AF3EA22046A442002E3DB0 /* Main.storyboard */,
 				60AF3EA52046A442002E3DB0 /* Assets.xcassets */,
 				60AF3EA72046A442002E3DB0 /* LaunchScreen.storyboard */,
 				60AF3EAA2046A443002E3DB0 /* Info.plist */,
 				60AF3EAB2046A443002E3DB0 /* main.m */,
+				60AF3F192046A55E002E3DB0 /* PrefixHeader.pch */,
 			);
 			path = SingeleChoiceDemo;
 			sourceTree = "<group>";
@@ -130,6 +211,77 @@
 				60AF3EC22046A443002E3DB0 /* Info.plist */,
 			);
 			path = SingeleChoiceDemoUITests;
+			sourceTree = "<group>";
+		};
+		60AF3EDB2046A4E3002E3DB0 /* L2H_MulChoose */ = {
+			isa = PBXGroup;
+			children = (
+				60AF3EDC2046A4E3002E3DB0 /* TableMulChoose */,
+				60AF3EE32046A4E3002E3DB0 /* Masonry */,
+				60AF3EFE2046A4E3002E3DB0 /* CollectMulChoose */,
+			);
+			path = L2H_MulChoose;
+			sourceTree = "<group>";
+		};
+		60AF3EDC2046A4E3002E3DB0 /* TableMulChoose */ = {
+			isa = PBXGroup;
+			children = (
+				60AF3EDD2046A4E3002E3DB0 /* MulChooseTable.h */,
+				60AF3EDE2046A4E3002E3DB0 /* SingleChooseTable.h */,
+				60AF3EDF2046A4E3002E3DB0 /* TableChooseCell.h */,
+				60AF3EE02046A4E3002E3DB0 /* SingleChooseTable.m */,
+				60AF3EE12046A4E3002E3DB0 /* MulChooseTable.m */,
+				60AF3EE22046A4E3002E3DB0 /* TableChooseCell.m */,
+			);
+			path = TableMulChoose;
+			sourceTree = "<group>";
+		};
+		60AF3EE32046A4E3002E3DB0 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				60AF3EE42046A4E3002E3DB0 /* MASCompositeConstraint.h */,
+				60AF3EE52046A4E3002E3DB0 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				60AF3EE62046A4E3002E3DB0 /* MASConstraint+Private.h */,
+				60AF3EE72046A4E3002E3DB0 /* MASLayoutConstraint.h */,
+				60AF3EE82046A4E3002E3DB0 /* NSArray+MASShorthandAdditions.h */,
+				60AF3EE92046A4E3002E3DB0 /* MASConstraintMaker.h */,
+				60AF3EEA2046A4E3002E3DB0 /* View+MASAdditions.h */,
+				60AF3EEB2046A4E3002E3DB0 /* NSArray+MASAdditions.h */,
+				60AF3EEC2046A4E3002E3DB0 /* MASUtilities.h */,
+				60AF3EED2046A4E3002E3DB0 /* MASViewAttribute.h */,
+				60AF3EEE2046A4E3002E3DB0 /* ViewController+MASAdditions.m */,
+				60AF3EEF2046A4E3002E3DB0 /* MASViewConstraint.h */,
+				60AF3EF02046A4E3002E3DB0 /* MASConstraint.h */,
+				60AF3EF12046A4E3002E3DB0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				60AF3EF22046A4E3002E3DB0 /* MASCompositeConstraint.m */,
+				60AF3EF32046A4E3002E3DB0 /* MASConstraintMaker.m */,
+				60AF3EF42046A4E3002E3DB0 /* MASLayoutConstraint.m */,
+				60AF3EF52046A4E3002E3DB0 /* NSArray+MASAdditions.m */,
+				60AF3EF62046A4E3002E3DB0 /* View+MASAdditions.m */,
+				60AF3EF72046A4E3002E3DB0 /* View+MASShorthandAdditions.h */,
+				60AF3EF82046A4E3002E3DB0 /* Masonry.h */,
+				60AF3EF92046A4E3002E3DB0 /* MASConstraint.m */,
+				60AF3EFA2046A4E3002E3DB0 /* ViewController+MASAdditions.h */,
+				60AF3EFB2046A4E3002E3DB0 /* MASViewConstraint.m */,
+				60AF3EFC2046A4E3002E3DB0 /* MASViewAttribute.m */,
+				60AF3EFD2046A4E3002E3DB0 /* Info.plist */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		60AF3EFE2046A4E3002E3DB0 /* CollectMulChoose */ = {
+			isa = PBXGroup;
+			children = (
+				60AF3EFF2046A4E3002E3DB0 /* HeaderView.m */,
+				60AF3F002046A4E3002E3DB0 /* SingleChooseCollectview.h */,
+				60AF3F012046A4E3002E3DB0 /* MulChooseCollectView.h */,
+				60AF3F022046A4E3002E3DB0 /* CollectviewChooseCell.m */,
+				60AF3F032046A4E3002E3DB0 /* HeaderView.h */,
+				60AF3F042046A4E3002E3DB0 /* SingleChooseCollectview.m */,
+				60AF3F052046A4E3002E3DB0 /* MulChooseCollectView.m */,
+				60AF3F062046A4E3002E3DB0 /* CollectviewChooseCell.h */,
+			);
+			path = CollectMulChoose;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +390,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60AF3F142046A4E3002E3DB0 /* Info.plist in Resources */,
 				60AF3EA92046A442002E3DB0 /* LaunchScreen.storyboard in Resources */,
 				60AF3EA62046A442002E3DB0 /* Assets.xcassets in Resources */,
 				60AF3EA42046A442002E3DB0 /* Main.storyboard in Resources */,
@@ -265,8 +418,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60AF3F0A2046A4E3002E3DB0 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				60AF3F182046A4E3002E3DB0 /* MulChooseCollectView.m in Sources */,
 				60AF3EA12046A442002E3DB0 /* ViewController.m in Sources */,
+				60AF3F112046A4E3002E3DB0 /* MASConstraint.m in Sources */,
+				60AF3F122046A4E3002E3DB0 /* MASViewConstraint.m in Sources */,
+				60AF3F0B2046A4E3002E3DB0 /* ViewController+MASAdditions.m in Sources */,
+				60AF3F132046A4E3002E3DB0 /* MASViewAttribute.m in Sources */,
+				60AF3F072046A4E3002E3DB0 /* SingleChooseTable.m in Sources */,
+				60AF3F152046A4E3002E3DB0 /* HeaderView.m in Sources */,
+				60AF3F0C2046A4E3002E3DB0 /* MASCompositeConstraint.m in Sources */,
+				60AF3F102046A4E3002E3DB0 /* View+MASAdditions.m in Sources */,
+				60AF3ED72046A4DA002E3DB0 /* TableVC_MulChoose.m in Sources */,
+				60AF3F082046A4E3002E3DB0 /* MulChooseTable.m in Sources */,
+				60AF3F172046A4E3002E3DB0 /* SingleChooseCollectview.m in Sources */,
+				60AF3F0E2046A4E3002E3DB0 /* MASLayoutConstraint.m in Sources */,
+				60AF3F0D2046A4E3002E3DB0 /* MASConstraintMaker.m in Sources */,
 				60AF3EAC2046A443002E3DB0 /* main.m in Sources */,
+				60AF3ED92046A4DA002E3DB0 /* CollectViewVC_SingleChoose.m in Sources */,
+				60AF3ED82046A4DA002E3DB0 /* CollectViewVC_Mulchoose.m in Sources */,
+				60AF3F0F2046A4E3002E3DB0 /* NSArray+MASAdditions.m in Sources */,
+				60AF3F162046A4E3002E3DB0 /* CollectviewChooseCell.m in Sources */,
+				60AF3F092046A4E3002E3DB0 /* TableChooseCell.m in Sources */,
+				60AF3EDA2046A4DA002E3DB0 /* TableVC_SingleChoose.m in Sources */,
 				60AF3E9E2046A442002E3DB0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +606,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54MPCG4PLY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SingeleChoiceDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = SingeleChoiceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ulearning.cn.SingeleChoiceDemo;
@@ -446,6 +621,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54MPCG4PLY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SingeleChoiceDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = SingeleChoiceDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ulearning.cn.SingeleChoiceDemo;
